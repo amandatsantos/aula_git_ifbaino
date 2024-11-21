@@ -1,29 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Index</title>
+<link rel="stylesheet" href='/styles/index.css'>
 </head>
 <body>
-    <div class="login-container">
-        <form id="form-login" class="login-form">
-            <h1>Login</h1>
-            <div class="form-group">
-                <label for="username">Usuário</label>
-                <input required type="text" id="username" name="username" placeholder="Digite seu usuário">
-            </div>
-            <div class="form-group">
-                <label for="password">Senha</label>
-                <input type="password" id="password" name="password" placeholder="Digite sua senha" style="display: none;">
-                <input required ="text" id="password-display" placeholder="Digite sua senha">
-            </div>
-            
-            <button type="submit">Entrar</button>
-        </form>
+    <div class="container">
+    
+        <p>Clique no botão abaixo para acessar a home:</p>
+        <button onclick="location.href='/auth/login.html'">Acessar a Home</button>
     </div>
-    <script src="script.js"></script>
-    <script src="password.js"></script>
 </body>
 </html>

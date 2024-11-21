@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles/styleLogin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="login-container">
+        <form id="form-login" class="login-form">
+            <h1>Login</h1>
+            <div class="form-group">
+                <label for="username">Usuário</label>
+                <div class="input-container">
+                    <input required type="text" id="username" name="username" placeholder="Digite seu usuário">
+                    <i class='bx bxs-user'></i>
+                </div>
+                <label for="password">Senha</label>
+                <div class="input-container">
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" style="display: none;">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input required ="text" id="password-display" placeholder="Digite sua senha">
+                </div>
+            </div>  
+            
+                <button type="submit">Entrar</button>
+
+                <div class="clique-cadastro">
+                    <a href="/auth/cadastro.html">Cadastre-se</a>
+                </div>
+        </form>
+    </div>
+    <script src="/javaScript/script.js"></script>
+    <script src="/javaScript/password.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+/* Corpo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+  }
+  
+  .clique-voltar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+  
+  }
+  .home-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+  
+  a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white;        /* Faz com que a cor do texto herde do elemento pai */
+    display: inline-block;
+    padding: 10px 20px;    /* Espaçamento interno */
+    border-radius: 5px;    /* Bordas arredondadas */
+    font-weight: bold;     /* Deixa o texto em negrito */
+    transition: background-color 0.3s; /* Efeito de transição */
+  
+  }
+  
+  a:hover {
+    background-color: #2575fc; /* Muda a cor de fundo ao passar o mouse */
+  }
